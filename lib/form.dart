@@ -241,7 +241,7 @@ class _MyFormPageState extends State<MyFormPage> {
                                       jenjangSarjana ? Text('Jenjang: Sarjana') : (jenjangDiploma ? Text('Jenjang: Diploma') : (jenjangMagister ? Text('Jenjang: Magister') : Text('Jenjang: Doktor'))),
                                       Text('Umur: ' + umur.toInt().toString()),
                                       Text('Kelas: ' + kelasPBP),
-                                      Text('On Practice Mode: ' +
+                                      Text('Practice Mode: ' +
                                           _nilaiSwitch.toString()),
                                     ],
                                   ),),
